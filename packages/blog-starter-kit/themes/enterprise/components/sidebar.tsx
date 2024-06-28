@@ -90,15 +90,7 @@ function PublicationSidebar(props: Props) {
 										href="/"
 										className="transition-200 block truncate text-ellipsis whitespace-nowrap rounded p-2 px-3 transition-colors hover:bg-slate-100 hover:text-black dark:hover:bg-neutral-800 dark:hover:text-white"
 									>
-										Blogs
-									</Link>
-								</li>
-								<li>
-									<Link
-										href="/"
-										className="transition-200 block truncate text-ellipsis whitespace-nowrap rounded p-2 px-3 transition-colors hover:bg-slate-100 hover:text-black dark:hover:bg-neutral-800 dark:hover:text-white"
-									>
-										Book a Call
+										CRO Blogs
 									</Link>
 								</li>
 								{navbarItems.map((item) => (
