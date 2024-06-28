@@ -25,8 +25,9 @@ export const Button = forwardRef<HTMLButtonElement, Props>(
 
 			case 'primary':
 				buttonClassName =
-					'text-white bg-primary-600 hover:bg-primary-500 border-primary-600 dark:bg-primary-600 dark:text-white';
+					'text-white border-0 dark:text-white';
 				break;
+				// bg-primary-600 hover:bg-primary-500 border-primary-600 dark:bg-primary-600
 
 			case 'outline-dark':
 				buttonClassName =
