@@ -75,7 +75,7 @@ function PublicationSidebar(props: Props) {
                 </li>
                 <li>
                   <Link
-                    href="https://cromize.com/blogs"
+                    href="https://cromize.com/blog"
                     className="transition-200 block truncate text-ellipsis whitespace-nowrap rounded p-2 px-3 transition-colors hover:bg-slate-100 hover:text-black dark:hover:bg-neutral-800 dark:hover:text-white"
                   >
                     CRO Blogs
