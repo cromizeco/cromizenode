@@ -78,7 +78,7 @@ export const Header = () => {
 
 	return (
 		<header className="border-b bg-slate-950 py-10 dark:border-neutral-800 dark:bg-neutral-900">
-			<Container className="grid justify-end gap-5 px-5 md:grid-cols-4">
+			<Container className="grid justify-end gap-5 px-5 lg:grid-cols-4">
 				<div className="col-span-2 flex flex-1 flex-row items-center gap-2 lg:col-span-1">
 					<div className="lg:hidden relative z-20">
 						<Button
