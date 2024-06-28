@@ -24,11 +24,11 @@ export const Footer = () => {
 					</p>
 				)}
 				<div className="flex flex-col items-center text-slate-600 dark:text-neutral-300">
-					<div className="mb-5">
-						<Link href="https://cromize.com/blog" className="mr-5 text-blue-600 hover:underline">
+					<div className="mb-5 text-center">
+						<Link href="https://cromize.com/blog" className="block hover:underline mb-2">
 							Blogs
 						</Link>
-						<Link href="https://cromize.com/" className="text-blue-600 hover:underline">
+						<Link href="https://cromize.com/" className="block hover:underline">
 							Conversion Rate Optimization
 						</Link>
 					</div>
