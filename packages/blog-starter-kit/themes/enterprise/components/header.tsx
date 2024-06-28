@@ -78,7 +78,7 @@ export const Header = () => {
 
 	return (
 		<header className="border-b bg-slate-950 py-10 dark:border-neutral-800 dark:bg-neutral-900">
-			<Container className="grid grid-cols-4 gap-5 px-5">
+			<Container className="grid md:grid-cols-4 gap-5 px-5 justify-end">
 				<div className="col-span-2 flex flex-1 flex-row items-center gap-2 lg:col-span-1">
 					<div className="lg:hidden">
 						<Button
@@ -97,7 +97,7 @@ export const Header = () => {
 						<PublicationLogo />
 					</div>
 				</div>
-				<div className="col-span-2 flex flex-row items-center justify-end gap-5 text-slate-300 lg:col-span-3">
+				<div className="col-span-2 lg:flex hidden flex-row items-center justify-end gap-5 text-slate-300 lg:col-span-3 ">
 					{/* <nav className="hidden lg:block">{navList}</nav> */}
 					<Button href={baseUrl} as="a" type="primary" label="Conversion Rate Optimization" />
 					<Button href={baseUrl} as="a" type="primary" label="Blogs" />
